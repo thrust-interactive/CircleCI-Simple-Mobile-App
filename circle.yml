@@ -1,5 +1,7 @@
 
 machine:
+  xcode:
+    version: 8.2
   environment:
     XCODE_SCHEME: nope
     XCODE_PROJECT: nope
