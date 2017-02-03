@@ -7,11 +7,11 @@ PlayerSettings:
   productGUID: 7c60a8fbd4dd4438bb7e619110ccc3ad
   AndroidProfiler: 0
   defaultScreenOrientation: 4
-  targetDevice: 0
+  targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: circleci
-  productName: MobileDemoInUnity
+  companyName: Thrust Interactive
+  productName: CircleCI Simple Mobile App
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenStyle: 0
@@ -96,7 +96,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleIdentifier: com.circleci.MobileDemoForUnity
+  bundleIdentifier: com.thrustinteractive.CircleCISimpleMobileApp
   bundleVersion: 1.0
   preloadedAssets: []
   metroEnableIndependentInputSource: 0
@@ -121,7 +121,7 @@ PlayerSettings:
   VertexChannelCompressionMask:
     serializedVersion: 2
     m_Bits: 238
-  iPhoneSdkVersion: 989
+  iPhoneSdkVersion: 988
   iPhoneTargetOSVersion: 22
   tvOSSdkVersion: 0
   tvOSTargetOSVersion: 900
@@ -513,7 +513,7 @@ PlayerSettings:
   Game_Performance_ServiceEnabled::Game_Performance_ServiceEnabled: False
   Hub_ServiceEnabled::Hub_ServiceEnabled: False
   Purchasing_ServiceEnabled::Purchasing_ServiceEnabled: False
-  UNet_ServiceEnabled::UNet_ServiceEnabled: False
+  UNet_ServiceEnabled::UNet_ServiceEnabled: True
   Unity_Ads_ServiceEnabled::Unity_Ads_ServiceEnabled: False
   WebGL::emscriptenArgs: 
   WebGL::template: APPLICATION:Default
@@ -556,7 +556,7 @@ PlayerSettings:
   XboxOne::VR::enabledDevices: []
   iOS::VR::enabledDevices: []
   tvOS::VR::enabledDevices: []
-  cloudProjectId: 3797a8ca-cad9-48c1-9563-85e9befec0ac
-  projectName: Simple Mobile Placeholder
-  organizationId: circlecigeorge
+  cloudProjectId: 1c9b9902-8a6f-4d22-9655-e4b08e414788
+  projectName: CircleCI Simple Mobile App
+  organizationId: thrust-interactive
   cloudEnabled: 0
