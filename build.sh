@@ -33,4 +33,10 @@ echo "returning the license"
 cp $(pwd)/unity.log $CIRCLE_ARTIFACTS/unity_return_key.log
 #
 cd Builds/iOS
-xcodebuild -project Unity-iPhone.xcodeproj -scheme Unity-iPhone clean build CONFIGURATION_BUILD_DIR=$CIRCLE_ARTIFACTS/build
+xcodebuild \
+  -project Unity-iPhone.xcodeproj \
+  -scheme Unity-iPhone \
+  clean \
+  build \
+  CONFIGURATION_BUILD_DIR=$CIRCLE_ARTIFACTS/build \
+  DEVELOPMENT_TEAM=$XCODE_TEAM_ID
